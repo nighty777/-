@@ -1,0 +1,72 @@
+#alldiv {
+	position: relative;
+	left: 50%;
+	width: 1000px;
+	margin-left: -500px;
+	
+}
+
+a {
+	color: black;
+	
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#apDiv1 {
+	position: absolute;
+	width: 1000px;
+	height: 100px;
+	z-index: 1;
+	background-image: url(img/b2c_01.jpg);
+	left: 9px;
+	top: -14px;
+}
+
+
+
+#apDiv3 {
+	position: absolute;
+	width: 1000px;
+	height: 37px;
+	z-index: 2;
+	background-image: url(img/b2c_02.jpg);
+	left: 9px;
+	top: 86px;
+}
+
+#apDiv4 {
+	position: absolute;
+	width: 1000px;
+	height: 44px;
+	z-index: 2;
+	background-image: url(img/b2c_03.jpg);
+	left: 9px;
+	top: 123px;
+}
+
+
+#apDiv5 {
+	position: absolute;
+	width: 1000px;
+	height: auto;
+	z-index: 2;
+	left: 9px;
+	top: 167px;
+	background-image: url(img/b2c_04.jpg);
+}
